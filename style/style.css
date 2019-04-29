@@ -7,3 +7,38 @@ h1 {
 table {
   border: dotted;
 }
+
+.div {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+.leftup {
+  flex: 50%;
+}
+
+.rightup {
+  flex: 50%;
+  text-align: right;
+}
+
+.leftdown {
+  flex: 50%;
+}
+
+.rightdown {
+  flex: 50%;
+  text-align: right;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
