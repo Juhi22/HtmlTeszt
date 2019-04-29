@@ -8,6 +8,10 @@ table {
   border: dotted;
 }
 
+td, th {
+  border: solid 2px;
+}
+
 .div {
   height: 500px;
   width: 500px;
